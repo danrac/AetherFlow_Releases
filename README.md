@@ -1,6 +1,14 @@
 # AetherFlow Releases
 
-Public download repository for AetherFlow CEP extension releases.
+![AetherFlow logo](assets/brand/aetherflow-logo.png)
+
+Public download repository for AetherFlow CEP extension releases, checksums, and optional native AE plugin packages.
+
+## Public Splash / Docs
+
+Start here for install notes, screenshots, workflow overview, firewall allowlist, and public-facing documentation:
+
+https://danrac.github.io/AetherFlow_Docs/
 
 ## Latest Release
 
@@ -8,20 +16,26 @@ Download the latest signed ZXP from the GitHub Releases page:
 
 https://github.com/danrac/AetherFlow_Releases/releases/latest
 
+## Native Plugin Packages
+
+Platform-specific native AE plugin packages are also published through this repository when available. Runtime Manager uses these public release assets to install or update plugin add-ons without exposing source code.
+
 ## Verification
 
-Each release includes a `SHA256SUMS.txt` file. To verify the downloaded ZXP:
+Each release includes a checksum file. To verify the downloaded ZXP:
 
 ```bash
 shasum -a 256 AetherFlow_CEP.zxp
 ```
 
-Compare the output with the checksum listed in the release.
+Compare the output with the checksum listed for that release.
 
-## Documentation
+## Support
 
-Public documentation is available here:
+Optional GitHub Sponsors support:
 
-https://danrac.github.io/AetherFlow_Docs/
+https://github.com/sponsors/danrac
 
-This repository only contains public release downloads and checksums. Source code is not distributed here.
+## Source Code
+
+This repository only contains public release downloads, checksums, and public release notes. AetherFlow source code and internal development materials are private.
